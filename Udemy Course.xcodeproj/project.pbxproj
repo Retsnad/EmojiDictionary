@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DB7A771D8E47B500E7E4BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB7A761D8E47B500E7E4BA /* AppDelegate.swift */; };
+		65DB7A791D8E47B500E7E4BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB7A781D8E47B500E7E4BA /* ViewController.swift */; };
+		65DB7A7C1D8E47B500E7E4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DB7A7A1D8E47B500E7E4BA /* Main.storyboard */; };
+		65DB7A7E1D8E47B500E7E4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DB7A7D1D8E47B500E7E4BA /* Assets.xcassets */; };
+		65DB7A811D8E47B500E7E4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DB7A7F1D8E47B500E7E4BA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65DB7A731D8E47B500E7E4BA /* Udemy Course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy Course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DB7A761D8E47B500E7E4BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65DB7A781D8E47B500E7E4BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DB7A7B1D8E47B500E7E4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65DB7A7D1D8E47B500E7E4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65DB7A801D8E47B500E7E4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65DB7A821D8E47B500E7E4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DB7A701D8E47B500E7E4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DB7A6A1D8E47B500E7E4BA = {
+			isa = PBXGroup;
+			children = (
+				65DB7A751D8E47B500E7E4BA /* Udemy Course */,
+				65DB7A741D8E47B500E7E4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DB7A741D8E47B500E7E4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DB7A731D8E47B500E7E4BA /* Udemy Course.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DB7A751D8E47B500E7E4BA /* Udemy Course */ = {
+			isa = PBXGroup;
+			children = (
+				65DB7A761D8E47B500E7E4BA /* AppDelegate.swift */,
+				65DB7A781D8E47B500E7E4BA /* ViewController.swift */,
+				65DB7A7A1D8E47B500E7E4BA /* Main.storyboard */,
+				65DB7A7D1D8E47B500E7E4BA /* Assets.xcassets */,
+				65DB7A7F1D8E47B500E7E4BA /* LaunchScreen.storyboard */,
+				65DB7A821D8E47B500E7E4BA /* Info.plist */,
+			);
+			path = "Udemy Course";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DB7A721D8E47B500E7E4BA /* Udemy Course */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DB7A851D8E47B500E7E4BA /* Build configuration list for PBXNativeTarget "Udemy Course" */;
+			buildPhases = (
+				65DB7A6F1D8E47B500E7E4BA /* Sources */,
+				65DB7A701D8E47B500E7E4BA /* Frameworks */,
+				65DB7A711D8E47B500E7E4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udemy Course";
+			productName = "Udemy Course";
+			productReference = 65DB7A731D8E47B500E7E4BA /* Udemy Course.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DB7A6B1D8E47B500E7E4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YoderDaniel;
+				TargetAttributes = {
+					65DB7A721D8E47B500E7E4BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NKCUNB6346;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65DB7A6E1D8E47B500E7E4BA /* Build configuration list for PBXProject "Udemy Course" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DB7A6A1D8E47B500E7E4BA;
+			productRefGroup = 65DB7A741D8E47B500E7E4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DB7A721D8E47B500E7E4BA /* Udemy Course */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DB7A711D8E47B500E7E4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DB7A811D8E47B500E7E4BA /* LaunchScreen.storyboard in Resources */,
+				65DB7A7E1D8E47B500E7E4BA /* Assets.xcassets in Resources */,
+				65DB7A7C1D8E47B500E7E4BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DB7A6F1D8E47B500E7E4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DB7A791D8E47B500E7E4BA /* ViewController.swift in Sources */,
+				65DB7A771D8E47B500E7E4BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65DB7A7A1D8E47B500E7E4BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DB7A7B1D8E47B500E7E4BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65DB7A7F1D8E47B500E7E4BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DB7A801D8E47B500E7E4BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DB7A831D8E47B500E7E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65DB7A841D8E47B500E7E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DB7A861D8E47B500E7E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NKCUNB6346;
+				INFOPLIST_FILE = "Udemy Course/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Udemy-Course";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65DB7A871D8E47B500E7E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NKCUNB6346;
+				INFOPLIST_FILE = "Udemy Course/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dan.Udemy-Course";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DB7A6E1D8E47B500E7E4BA /* Build configuration list for PBXProject "Udemy Course" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DB7A831D8E47B500E7E4BA /* Debug */,
+				65DB7A841D8E47B500E7E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DB7A851D8E47B500E7E4BA /* Build configuration list for PBXNativeTarget "Udemy Course" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DB7A861D8E47B500E7E4BA /* Debug */,
+				65DB7A871D8E47B500E7E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65DB7A6B1D8E47B500E7E4BA /* Project object */;
+}
